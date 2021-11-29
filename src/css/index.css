@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Gabriela&family=Karla:wght@300&family=Montserrat&family=Mulish&family=Nunito:wght@300;400&family=Open+Sans+Condensed:wght@300&family=Poppins:wght@300&family=Raleway&family=Roboto&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.outline-heading{
+    color: #f8f8f8;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  transition: all 0.5s;
+  letter-spacing: 1.5px;
+}
+
+.app-name-heading{
+    color: #383CC1;
+}
+
+.btn{
+  background: #383CC1;
+  animation: pop-on-hover 1s;
+}
+
+.btn:hover{
+  background: rgba(56, 10, 255, 1);
+  transform: scale(1.2);
+}
+
+@keyframes pop-on-hover {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+
+
+
+/* For Mansory Grid */
+.my-masonry-grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: -30px;
+    width: auto;
+  }
+  .my-masonry-grid_column {
+    padding-left: 30px;
+    background-clip: padding-box;
+  }
+  
+  .my-masonry-grid_column > div {
+    margin-bottom: 30px;
+  }
+  
+
+
+
