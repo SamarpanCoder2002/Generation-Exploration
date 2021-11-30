@@ -30,12 +30,12 @@ const UpperSide = () => {
             className="mt-5 2xl:mt-10 text-lg 2xl:text-4xl text-center lg:text-left"
             data-aos="zoom-in"
             data-aos-duration="1000"
-            data-aos-delay="1500"
+            data-aos-delay="1600"
           >
             <Typewriter
               onInit={(typewriter) => {
                 typewriter
-                  .pauseFor(1200)
+                  .pauseFor(1600)
                   .typeString(
                     `A Private, Secure, End-to-End Encrypted Messaging app made in
                 Flutter, that helps you to connect with your connections without any
@@ -77,7 +77,7 @@ const UpperSide = () => {
           className="h-screen mx-auto hidden lg:block 2xl:h-2/5"
           data-aos="zoom-in"
           data-aos-duration="1000"
-          data-aos-delay="1500"
+          data-aos-delay="1000"
         >
           <img
             src={Generation_Landing}
@@ -90,9 +90,9 @@ const UpperSide = () => {
       {/* For Mobile and Tab View */}
       <div
         className="h-screen lg:hidden flex justify-center"
-        data-aos="zoom-in"
+        data-aos="zoom-in-up"
         data-aos-duration="1000"
-        data-aos-delay="2200"
+        data-aos-delay="1000"
       >
         <img
           src={Generation_Landing}

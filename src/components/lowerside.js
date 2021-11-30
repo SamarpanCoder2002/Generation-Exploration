@@ -4,7 +4,7 @@ const LowerSide = () => {
       className="mt-10 w-full bg-background"
       data-aos="fade-up"
       data-aos-duration="1400"
-      data-aos-delay="1500"
+      data-aos-delay="500"
     >
       <DesignFooter />
     </div>
@@ -32,13 +32,21 @@ const DesignFooter = () => {
             className="bx bxl-github bx-lg mr-10 cursor-pointer"
             style={{ color: "#171515" }}
             onClick={() => {
-              window.open("https://github.com/SamarpanCoder2002/Generation", "_blank");
+              window.open(
+                "https://github.com/SamarpanCoder2002/Generation",
+                "_blank"
+              );
             }}
           ></i>
-          <i className="bx bxl-youtube bx-lg cursor-pointer" style={{ color: "red" }}
-          onClick={() => {
-            window.open("https://youtube.com/playlist?list=PLn4o1Gy6eg752X6ZaJ7UL55kLJ235laOg", "_blank");
-          }}
+          <i
+            className="bx bxl-youtube bx-lg cursor-pointer"
+            style={{ color: "red" }}
+            onClick={() => {
+              window.open(
+                "https://youtube.com/playlist?list=PLn4o1Gy6eg752X6ZaJ7UL55kLJ235laOg",
+                "_blank"
+              );
+            }}
           ></i>
         </div>
       </div>

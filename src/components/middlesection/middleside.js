@@ -72,6 +72,7 @@ const MiddleSide = () => {
               grantImg={AvailableConnections}
               grantImgAlt="Available Connections"
               animation="fade-left"
+              makeWidthResize={true}
             />
           </div>
 

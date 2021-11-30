@@ -6,6 +6,7 @@ const FeatureCard = ({
   grantImg,
   grantImgAlt,
   animation,
+  makeWidthResize,
 }) => {
   console.log(grantImg);
   return (
@@ -38,7 +39,11 @@ const FeatureCard = ({
         <img
           src={grantImg}
           alt={grantImgAlt}
-          className="2xl:h-2/5 2xl:w-3/4 mx-auto"
+          className={
+            makeWidthResize
+              ? "2xl:h-1/5 2xl:w-2/4 mx-auto"
+              : "md:h-screen 2xl:h-1/5 2xl:w-2/4 mx-auto"
+          }
         />
       )}
     </div>
