@@ -1,3 +1,11 @@
+https://user-images.githubusercontent.com/66327336/144080555-d9735711-ea6e-436c-82ac-6e44579d4d1f.mp4
+
+#### 🤩 Web App Live: https://generation-launch-page.netlify.app/
+
+#### 👉 Video Demo: https://youtu.be/wl7XvjYG33Q
+
+### <p align="center">Show 💘 by staring this repo</p>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
