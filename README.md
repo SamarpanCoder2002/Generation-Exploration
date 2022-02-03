@@ -1,8 +1,8 @@
 https://user-images.githubusercontent.com/66327336/144080555-d9735711-ea6e-436c-82ac-6e44579d4d1f.mp4
 
-#### 🤩 Web App Live: https://generation-launch-page.netlify.app/
+#### 🤩 [Web App Live - Click Me](https://generation-launch-page.netlify.app/)
 
-#### 👉 Video Demo: https://youtu.be/wl7XvjYG33Q
+#### 👉 [Video Demo - Click Me](https://youtu.be/wl7XvjYG33Q)
 
 ### <p align="center">Show 💘 by staring this repo</p>
 
