@@ -1,1 +1,1 @@
-### Put your mockup images here and update path in src files
+### Put your mockup images here with proper names and update path in src files

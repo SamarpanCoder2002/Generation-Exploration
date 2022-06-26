@@ -1,0 +1,28 @@
+{
+    "short_name": "Generation",
+    "name": "Generation",
+    "author": "Samarpan Dasgupta",
+    "version": "1.0",
+    "description": "Enjoy Simple Secure User-Friendly Messaging app with Enrich UI",
+    "icons": [
+      {
+        "src": "https://firebasestorage.googleapis.com/v0/b/portfolio-5bf90.appspot.com/o/Generation-Assets%2Fgeneration_transparent_logo.png?alt=media&token=0ed8783f-d7b2-4ac4-a0ea-ca4221dce706",
+        "sizes": "400x400",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "https://firebasestorage.googleapis.com/v0/b/portfolio-5bf90.appspot.com/o/Generation-Assets%2Fgeneration_transparent_logo.png?alt=media&token=0ed8783f-d7b2-4ac4-a0ea-ca4221dce706",
+        "type": "image/png",
+        "sizes": "400x400"
+      }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#f1f1f1",
+    "background_color": "#f1f1f1",
+    "developer": {
+      "name": "Samarpan Dasgupta",
+      "url": "https://www.samarpandasgupta.com/"
+    },
+    "manifest_version": 3
+  }

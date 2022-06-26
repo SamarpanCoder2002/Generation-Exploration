@@ -1,10 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import LandingPage from './components/app';
-import './css/index.css';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./css/index.css";
+import RoutesEntryPoint from "./router";
 
-ReactDOM.render(
-  <LandingPage />,
-  document.getElementById('root')
-);
-
+ReactDOM.render(<RoutesEntryPoint />, document.getElementById("root"));

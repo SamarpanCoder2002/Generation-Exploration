@@ -17,6 +17,15 @@ body {
   letter-spacing: 1.5px;
 }
 
+.navbar-heading{
+  color: #6bce29;
+  /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000; */
+  transition: all 0.5s;
+  letter-spacing: 1.5px;
+  font-weight: 800;
+}
+
 .app-name-heading {
   color: #383cc1;
 }
@@ -53,10 +62,4 @@ body {
 
 .my-masonry-grid_column > div {
   margin-bottom: 30px;
-}
-
-/* AOS Managing Responsiveness */
-
-@media (max-width: 768px) {
-  
 }

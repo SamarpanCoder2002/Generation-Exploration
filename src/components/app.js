@@ -1,7 +1,7 @@
 import { useEffect } from "react";
-import LowerSide from "./lowerside";
-import MiddleSide from "./middlesection/middleside";
-import UpperSide from "./upperside";
+import LowerSide from "./landing/lowerside";
+import MiddleSide from "./landing/middlesection/middleside";
+import UpperSide from "./landing/upperside";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
