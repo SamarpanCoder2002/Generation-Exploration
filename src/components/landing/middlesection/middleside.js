@@ -10,7 +10,7 @@ const MiddleSide = () => {
   // For Masonry Break Point Management
   const breakpointColumnsObj = {
     default: 2,
-    800: 1,
+    1024: 1,
   };
 
   // Additional Features List Component

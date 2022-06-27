@@ -81,9 +81,9 @@ const DesignFooter = () => {
         </button>
       </div>
 
-      <div className="mt-5">
+      <div className="mt-10">
         <div className="container mx-auto">
-          <ul className="flex justify-between text-sm">
+          <ul className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-y-8 gap-x-8 place-items-center text-sm">
             <li className="cursor-pointer hover:underline" onClick={() => navigate("/about-us")}>About us</li>
             <li className="cursor-pointer hover:underline" onClick={() => navigate("/contact-us")}>Contact us</li>
             <li className="cursor-pointer hover:underline" onClick={() => window.open("https://www.freeprivacypolicy.com/live/a376f7bf-96d8-4ef5-9b87-7ac9790decd4", "_blank")}>Terms and Conditions</li>
@@ -94,7 +94,7 @@ const DesignFooter = () => {
       </div>
 
       {/* Copyright Link */}
-      <p className="text-center mt-5">
+      <p className="text-center mt-10">
         Copyright &copy; {new Date().getFullYear()} - Generation
       </p>
     </div>
