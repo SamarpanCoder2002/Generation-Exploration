@@ -1,4 +1,4 @@
-#### 🤩 [Web App Live - Click Me](https://generation-launch-page.netlify.app/)
+#### 🤩 [Web App Live - Click Me](https://generation.samarpandasgupta.com/)
 
 #### 👉 [Video Demo - Click Me](https://youtu.be/wl7XvjYG33Q)
 
